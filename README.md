@@ -182,3 +182,7 @@ screenshots/
 - Dark Mode
 
 ---
+
+<img width="1350" height="1985" alt="localhost_8080_" src="https://github.com/user-attachments/assets/44f6339f-06ed-41da-8264-f4f86a420d56" />
+<img width="1905" height="697" alt="localhost_8080_view-admin" src="https://github.com/user-attachments/assets/bdfca4e5-4d03-4b4e-a670-76ecf242a58b" />
+
