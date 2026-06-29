@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/adminPanel');
+mongoose.connect('mongodb+srv://parekhmegh155_db_user:Cookie11@admin-management.fa6kttj.mongodb.net/?appName=admin-management');
 
 const db = mongoose.connection;
 
