@@ -1,33 +1,22 @@
-# AdminPanel-cookie
-<br><br><br>
+# 🍪 Admin Panel - Cookie Authentication
 
-# 🎥 Project Explanation Video
-
-> **📌 Project explanation video link**
-
-[![Watch-Video](https://img.shields.io/badge/▶️-Watch%20Video-red)](https://drive.google.com/file/d/1J7NN3nyTdtvAa8ZBjr1MAgK3M7vHfy5z/view?usp=sharing)
+A secure and responsive **Admin Panel** built with **Node.js, Express.js, MongoDB, EJS, and Bootstrap**. This project implements cookie-based authentication with complete CRUD operations for admin management.
 
 ---
 
-# Admin Panel
-
-A secure and responsive **Admin Panel** built using **Node.js, Express.js, MongoDB, EJS, and Bootstrap**. The application provides complete admin authentication along with CRUD functionality for managing admin users.
-
----
-
-## 📌 Features
+## 🚀 Features
 
 - 🔐 Admin Registration
-- 🔑 Secure Login System
+- 🔑 Secure Login & Logout
 - 🍪 Cookie-Based Authentication
-- 📊 Dashboard
+- 📊 Admin Dashboard
 - ➕ Add New Admin
-- 👀 View All Admins
-- ✏️ Edit Admin Details
+- 👥 View All Admins
+- ✏️ Update Admin Details
 - 🗑️ Delete Admin
-- 🖼️ Upload Admin Profile Image
-- 🔒 Password Encryption using Bcrypt
-- 📱 Responsive User Interface
+- 📷 Profile Image Upload
+- 🔒 Password Hashing using Bcrypt
+- 📱 Fully Responsive UI
 
 ---
 
@@ -47,19 +36,19 @@ A secure and responsive **Admin Panel** built using **Node.js, Express.js, Mongo
 - MongoDB
 - Mongoose
 
-### Authentication & Security
-- Bcrypt
+### Authentication
 - Cookie Parser
+- Bcrypt
 
 ### File Upload
 - Multer
 
 ---
 
-## 📂 Folder Structure
+## 📁 Project Structure
 
-```
-Admin-panel/
+```text
+AdminPanel-cookie/
 │
 ├── config/
 │   └── db.js
@@ -71,20 +60,13 @@ Admin-panel/
 │   └── adminModel.js
 │
 ├── public/
-│   ├── css/
-│   ├── images/
+│   ├── assets/
 │   └── uploads/
 │
 ├── routes/
 │   └── adminRoutes.js
 │
 ├── views/
-│   ├── dashboard.ejs
-│   ├── login.ejs
-│   ├── signup.ejs
-│   ├── add-admin.ejs
-│   ├── edit-admin.ejs
-│   └── view-admin.ejs
 │
 ├── app.js
 ├── package.json
@@ -93,60 +75,110 @@ Admin-panel/
 
 ---
 
+## ⚙️ Installation
 
+### 1. Clone the repository
 
-## Available Pages
+```bash
+git clone <repository-url>
+```
+
+### 2. Navigate to the project
+
+```bash
+cd AdminPanel-cookie
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure MongoDB
+
+Update your MongoDB connection string inside:
+
+```text
+config/db.js
+```
+
+### 5. Start the application
+
+```bash
+npm start
+```
+
+The server will run on:
+
+```
+http://localhost:8080
+```
+
+---
+
+## 📌 Available Routes
 
 | Route | Description |
-|--------|-------------|
+|-------|-------------|
 | `/signup` | Register Admin |
 | `/login` | Login |
 | `/` | Dashboard |
 | `/add-admin` | Add New Admin |
-| `/view-admin` | View Admin List |
+| `/view-admin` | View All Admins |
 | `/edit-admin/:id` | Edit Admin |
 | `/delete-admin/:id` | Delete Admin |
 | `/logout` | Logout |
 
 ---
 
-## Security Features
+## 🔒 Security Features
 
-- Password Hashing with Bcrypt
+- Password Encryption using Bcrypt
 - Cookie-Based Authentication
 - Protected Routes
-- Image Upload Validation
-- Secure Admin Login
+- Secure Login System
+- File Upload Validation
 
 ---
 
-## Project Highlights
+## 📸 Screenshots
 
-- Clean MVC Architecture
-- CRUD Operations
-- Authentication System
-- Responsive Design
-- MongoDB Integration
-- Image Upload Support
-- Easy to Customize
+Add screenshots of your application here.
+
+Example:
+
+```
+screenshots/
+├── login.png
+├── dashboard.png
+├── add-admin.png
+└── view-admin.png
+```
 
 ---
 
-## Future Improvements
+## 📦 Dependencies
+
+- Express.js
+- Mongoose
+- EJS
+- Cookie Parser
+- Bcrypt
+- Multer
+- Nodemon
+
+---
+
+## 🌟 Future Enhancements
 
 - JWT Authentication
 - Forgot Password
 - Email Verification
-- Role-Based Access Control
-- Pagination
+- Role-Based Authentication
 - Search & Filter
-- Dark Mode
+- Pagination
 - Dashboard Analytics
+- Dark Mode
 
 ---
-
----
-
-## Author
-
-**Jainish Rana**
